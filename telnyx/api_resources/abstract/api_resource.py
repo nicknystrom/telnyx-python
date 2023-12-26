@@ -21,7 +21,7 @@ class APIResource(TelnyxObject):
         # Otherwise, we will have an object of type `TelnyxObject`, the
         # default type returned by `util.convert_to_telnyx_object`, and we
         # promote the object back to an `APIResource`.
-        if type(response) == TelnyxObject:
+        if isinstance(response) == TelnyxObject:
             instance.refresh_from(response)
 
             return instance

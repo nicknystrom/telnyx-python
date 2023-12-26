@@ -1,7 +1,7 @@
 from __future__ import absolute_import, division, print_function
 
 from telnyx import api_requestor, util
-from telnyx.six.moves.urllib.parse import quote_plus
+from six.moves.urllib.parse import quote_plus
 
 
 def nested_resource_class_methods(

@@ -5,6 +5,7 @@ import json
 from copy import deepcopy
 
 import six
+
 import telnyx
 from telnyx import api_requestor, util
 

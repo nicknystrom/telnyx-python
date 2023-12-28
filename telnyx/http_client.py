@@ -8,8 +8,9 @@ import time
 import warnings
 
 import six
-from telnyx import error, util
 from six.moves.urllib.parse import urlparse
+
+from telnyx import error, util
 
 # - Requests is the preferred HTTP library
 # - Google App Engine has urlfetch

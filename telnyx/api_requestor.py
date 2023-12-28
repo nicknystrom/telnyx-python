@@ -7,10 +7,11 @@ import platform
 import time
 
 import six
+from six.moves.urllib.parse import urlencode, urlsplit, urlunsplit
+
 import telnyx
 from telnyx import error, http_client, util
 from telnyx.multipart_data_generator import MultipartDataGenerator
-from six.moves.urllib.parse import urlencode, urlsplit, urlunsplit
 from telnyx.telnyx_response import TelnyxResponse
 
 

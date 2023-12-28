@@ -49,6 +49,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'requests >= 2.20; python_version >= "3.8"',
+        "six",
         "PyNaCl",
     ],
     python_requires=">=3.8",

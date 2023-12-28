@@ -4,8 +4,9 @@ import datetime
 import json
 from copy import deepcopy
 
+import six
 import telnyx
-from telnyx import api_requestor, six, util
+from telnyx import api_requestor, util
 
 
 def _compute_diff(current, previous):

@@ -222,19 +222,19 @@ Run all tests on all supported Python versions:
 
 Run all tests for a specific Python version (modify `-e` according to your Python target):
 
-    pipenv run tox -e py27
+    pipenv run tox -e py38
 
 Run all tests in a single file:
 
-    pipenv run tox -e py27 -- tests/api_resources/abstract/test_updateable_api_resource.py
+    pipenv run tox -e py38 -- tests/api_resources/abstract/test_updateable_api_resource.py
 
 Run a single test suite:
 
-    pipenv run tox -e py27 -- tests/api_resources/abstract/test_updateable_api_resource.py::TestUpdateableAPIResource
+    pipenv run tox -e py38 -- tests/api_resources/abstract/test_updateable_api_resource.py::TestUpdateableAPIResource
 
 Run a single test:
 
-    pipenv run tox -e py27 -- tests/api_resources/abstract/test_updateable_api_resource.py::TestUpdateableAPIResource::test_save
+    pipenv run tox -e py38 -- tests/api_resources/abstract/test_updateable_api_resource.py::TestUpdateableAPIResource::test_save
 
 Run the linter with:
 
